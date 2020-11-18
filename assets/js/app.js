@@ -47,8 +47,7 @@ const peopleForm = (function () {
       function render(){
         const lastPerson = state.people[state.people.length - 1]
         const personBtn = document.createElement('button')
-        const closeSpan = document.createElement('span')​
-        
+        const closeSpan = document.createElement('span')        
         closeSpan.className = 'label label-warning'
         closeSpan.innerText = ' x'
         personBtn.className = 'btn btn-success mx-2 my-2'
